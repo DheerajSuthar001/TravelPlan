@@ -25,7 +25,7 @@ function Card({ id, name, info, image, price, removeTour }) {
                     <span className='text-blue-600 cursor-pointer' onClick={readMoreHandler}>{readmore ? 'Show less' : 'Read more'}</span>
                 </div>
             </div>
-            <button className='w-[70%] my-3 border-[1px] border-red-900 bg-red-300 font-bold rounded-md' onClick={() => removeTour(id)}>Not Interested</button>
+            <button className='w-[70%] my-3 border-[1px] border-red-900 bg-red-300 font-bold rounded-md hover:bg-red-900 hover:text-white' onClick={() => removeTour(id)}>Not Interested</button>
         </div>
     );
 }
