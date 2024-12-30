@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className='w-[100vw] flex  justify-center items-center '>
-      <div className=' flex flex-col gap-6 my-6 items-center justify-center md:w-[70%] '>
+      <div className=' flex flex-col gap-6 my-6 items-center justify-center lg:w-[70%] md:w-[90%] '>
         <h1 className='w-[30%] text-center border-2 border-dashed border-blue-900 rounded-lg font-extrabold text-4xl'>Travel Plan</h1>
         <Tours  allTours={tours} removeTour={removeTour}></Tours>
       </div>

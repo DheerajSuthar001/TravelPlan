@@ -12,7 +12,7 @@ function Card({ id, name, info, image, price, removeTour }) {
     }
 
     return (
-        <div className='flex flex-col items-center justify-between w-[400px] h-auto rounded-md p-2 shadow-xl '>
+        <div className='flex flex-col items-center justify-between h-auto rounded-md p-2 shadow-xl '>
             <img className='w-[100%] h-[300px] object-cover ' src={image} alt='PlaceImage' ></img>
             <div className='Card-details my-6'>
 
